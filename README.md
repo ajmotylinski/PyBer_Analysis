@@ -1,40 +1,27 @@
 # Overview
-Leadership at PyBer requested an exploratory analysis be done on city and ride date from January through May 2019.
+Leadership at PyBer requested an exploratory analysis be done on city and ride date from January through May 2019. Leadership would like three recommendations to expand into underserved communities.
 
 # Results
+![Pyber data](analysis/PyBer_dataframe.png)
 
-## Average Fare
-The average fare is highest in the rural city types, even though they tend to have a lower number of rides. Urban areas tend to have more rides, but the average fares are lower. Suburban city types fall between rurual and urban in terms of average fare and number of rides.
-![Pyber Ride Sharing Data](analysis/Fig1.png)
+## Total Rides
+Urban cites make up the most number of rides. They make up  68% of the total rides. Rural cities make up only 5% of total rides.
 
-## Ride Count
-Urban riders have the highest number of average rides. There is one outlier at 39 rides. The Urban riders also have the widest range of rides. The rural city rides frequent our service left often. The urban riders average 4 times as many rides as our rural riders. Again, suburban riders fall between urban and rural riders.
-![Ride Count Data](analysis/Fig2.png)
+## Total Drivers
+Urban cities have the largest number or drivers. Urban cities have a total of 2405 drivers which is just over 80% of total drivers.
 
-## Ride Fare
-The average fare for rural rides are higher than both suburban and urban rides. The range for rural rides is also more than urban and suburban. Suburban riders have the smallest range.
-![Ride Fare Data](analysis/Fig3.png)
+## Total Fares
+The urban cities make up majority of the total fares. The rural fares make up a small portion of total fares.
 
-## Driver Count
-Rural cities have the least amount of drivers. Suburban cities have 4 times more drivers than rural cities and urban cities tend to have 9 times more drivers than the rural cities. The rural cities have a very narrow number of driver while the urban cities have a large range of drivers.
-![Driver Count Data](analysis/Fig4.png)
+## Average Fare per Ride
+The average fare per rides starts to tell a different story. Rural cities tend to have a larger average fare per ride at $34.62. The urban areas have the lowest average fare per ride at $24.53. Suburban cities fall in the middle at $30.97.
 
-## Total Fares by City
-Urban cities make up almost 2/3 of total fares while suburban make up 30% of fares. Rural contributes the least amount of fares at just under 7%.
-![Total Fare by City Data](analysis/Fig5.png)
-
-## Total Rides by City Type
-Urban cities make up almost 69% of total rides. Surbuban rides make up 26% and rural makes up the least at just over 5%.
-![Total Rides by city Data](analysis/Fig6.png)
-
-## Total Drivers by City Type
-Urban cities have the most number of drivers. They make up 81% of total drivers. Suburban and rural make up the remaining 16.5% and 2.6%, respectively.
-![Total Drivers Data](analysis/Fig7.png)
+## Average Fare per Driver
+The average fare per driver shows an even wider disparity between rural and urban areas. The average fare per driver in rural areas is $55.49, $39.50 for suburban, and a low $16.57 for urban areas.
 
 ## Weekly Fares by City Type
-As with other the other metrics reviewed, urban cities make up the most fares each week.
-![Weekly fares by City Data](analysis/PyBer_fare_summary.png)
-
+![Pyber data](analysis/PyBer_fare_summary.png)
+The weekly fares show that urban cities make of the most fares by week. Surburban cities are next highest and the rural cities make up the least amount.
 
 # Summary
 Base on the analysis above there are a few things that may be able to improve PyBer financial results. The first recommendation is to look for ways to increase rides in rural communities. Rural communities tend to have larger fares. To go along with this first recommendation, we probably need to increase the number of drivers to support increased demand. Another recommendation would be to look for ways to decrease the number of drivers in urban areas. This would then increase the average fare per driver. 
